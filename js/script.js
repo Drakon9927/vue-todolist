@@ -3,12 +3,12 @@ const { createApp } = Vue
 createApp({
     data() {
         return {
-            message: "Drago"
+            message: "To do List!",
+
+            toDoList: ["Frullato", "Cenare", "Boxing", "Giocare", "Dormire", "Studiare"],
         }
     },
-        stampa: {
-            stampaMsg() {
-                console.log("Funziona ?")
-            }
+        methods: {
+            
         },
 }).mount(`#app`)
