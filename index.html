@@ -17,7 +17,9 @@
             <li v-for="(slide, i) in toDoList" key="i" class="item"> {{ slide }}</li>
         </ul>
 
-
+    <!-- Input e Pulsante -->
+        <input v-model="newItem" type="text" placeholder="Nuovo elemento">
+        <button @click="addItem">Aggiungi</button>
 
     </div>
     
